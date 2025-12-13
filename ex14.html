@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.s1 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transition: width 2s;
+  margin-bottom: 20px;
+}
+
+.s1:hover {
+  width: 500px;
+}
+
+
+.s2 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transition: width 2s, height 2s;
+}
+
+.s2:hover {
+  width: 200px;
+  height: 200px;
+}
+</style>
+</head>
+
+<body>
+
+<p>Mouse hover square 1: the square becomes longer.</p>
+<p>Mouse hover square 2: the square becomes larger.</p>
+
+<div class="s1"></div>
+<div class="s2"></div>
+
+</body>
+</html>
